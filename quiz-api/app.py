@@ -5,9 +5,8 @@ app = Flask(__name__)
 CORS(app)
 
 @app.route('/')
-def hello_world():
-	x = 'world'
-	return f"Hello, {x}"
+def message():
+	return f"Hello la E5FI"
 
 if __name__ == "__main__":
     app.run()
